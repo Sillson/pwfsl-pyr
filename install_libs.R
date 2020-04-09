@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 install.packages('devtools')
 install.packages('MazamaSpatialUtils')
-install.packages('PWFSLSmoke')
+devtools::install_github('MazamaScience/PWFSLSmoke', build_vignettes=FALSE)
 
 #install spatial Data
 library('PWFSLSmoke')
